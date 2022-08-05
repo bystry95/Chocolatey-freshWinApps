@@ -1,4 +1,4 @@
-# Ref: [Chocolatey](https://chocolatey.org/install/)
+# Ref: [Chocolatey](https://chocolatey.org/install)
 
 
 #Disable ExecutionPolicy (open CMD as administrator)
