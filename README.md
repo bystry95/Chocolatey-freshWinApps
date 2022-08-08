@@ -19,7 +19,6 @@ choco install messenger --version 153.0.380000452 -y
 choco install malwarebytes --version 4.5.10.291 -y
 choco install 7zip --version 22.1 -y
 choco install qbittorrent --version 4.4.3.1 -y
-choco install rainmeter --version 4.3.0.3321 -y
 choco install revo-uninstaller --version 2.3.8.0 -y
 choco install greenshot --version 1.2.10.6 -y
 choco install onedrive --version 22.141.0703.0002 -y
