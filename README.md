@@ -1,10 +1,7 @@
 # Ref: [Chocolatey](https://chocolatey.org/install)
 
+##Disable ExecutionPolicy (open CMD as administrator) and Install Chocolatey.
 
-#Disable ExecutionPolicy (open CMD as administrator)
-> Set-ExecutionPolicy Bypass -Scope Process
-
-#Install Chocolatey
 > Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 ***Wait a few seconds for the command to complete.***
@@ -25,4 +22,6 @@ choco install onedrive --version 22.141.0703.0002 -y
 choco install adobereader --version 2022.001.20169 -y
 choco install vlc --version 3.0.17.4 -y
 choco install github-desktop --version 3.0.5 -y
+choco install vcredist2017 --version 14.16.27033 -y
+
 ```
